@@ -6,6 +6,9 @@
 "   David Liang (bmdavll@gmail.com)
 " based on version by
 "   Danila Bespalov (danila.bespalov@gmail.com)
+"
+" Update: 2014-04-11 - Added ColorColumn (mv)
+"
 
 set background=dark
 
@@ -87,10 +90,10 @@ hi String		ctermfg=113		cterm=none		guifg=#95e454	gui=italic
 hi Comment		ctermfg=246		cterm=none		guifg=#9c998e	gui=italic
 hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=italic
 
-
 " Links
 hi! link FoldColumn		Folded
 hi! link CursorColumn	CursorLine
+hi! link ColorColumn	CursorLine
 hi! link NonText		LineNr
 
 " vim:set ts=4 sw=4 noet:
